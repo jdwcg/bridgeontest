@@ -10,13 +10,14 @@ a {text-decoration: none; display: block;} a:hover {color:var(--main)} a:visited
     --sub1 : #8C64FF;
     --sub2 : #FF6464;
 }
-body {background: #f8f8f8;}
+body {background: #f8f8f8; }
 
 // 헤더
 header, .main, footer {
     margin: 0 auto;
     max-width: 480px;
     background: #fff;
+    border:1px solid red;
 }
 
 header {
@@ -61,12 +62,13 @@ footer > p:nth-child(1) {
     }
 }
 
-footer > div:nth-child(2) {
+footer > address {
     background: #333;
     padding: 1rem 0;
     > p {
         font-size: 13px;
         color: #888;
+        font-style: normal;
     }
 }
 
@@ -104,4 +106,3 @@ footer > div:nth-child(2) {
     background: #111;
     opacity: .4;
 }
-
