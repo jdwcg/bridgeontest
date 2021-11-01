@@ -1,0 +1,37 @@
+@import url("default.css");
+.header { position: fixed; top: 50px; z-index: 3; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #fff; width: 480px; padding: 0 1rem; }
+@media (max-width: 480px) { .header { width: 100%; } }
+.header > button { word-break: keep-all; font-size: 14px; padding: 12px 24px; background: #E6F1F1; border: none; border-radius: 8px; margin: 1rem 4px; width: 48%; cursor: pointer; }
+.header > button:last-child { background: #eee; }
+
+.main { padding-top: 148px; }
+.main ul { list-style: inside; margin: 0; }
+.main li { font-size: 14px; }
+.main h1 { text-align: center; color: #176565; font-size: 18px; }
+.main p, .main p > span { font-size: 14px; }
+.main > section:nth-child(1) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #E6F1F1)); background: linear-gradient(to bottom, #fff 50%, #E6F1F1 50%); }
+.main > section:nth-child(1) > img { width: 180px; height: 180px; border-radius: 50%; }
+.main > section:nth-child(2) { background: #E6F1F1; }
+.main > section:nth-child(2) > article { width: 100%; }
+.main > section:nth-child(2) > article > h1 { padding: 34px 0 14px; }
+.main > section:nth-child(2) > article > p { word-break: keep-all; width: 100%; }
+.main > section:nth-child(2) > article > p > span { word-break: break-all; line-height: 1.6; width: 70%; display: block; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); text-align: justify; }
+.main > section:nth-child(2) > article:nth-child(2) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.main > section:nth-child(2) > article:nth-child(2) > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 70%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(2) > article:nth-child(2) > ul > li { color: #333; }
+.main > section:nth-child(2) > article:nth-child(2) > button { cursor: pointer; border-radius: 4px; padding: 8px 16px; margin: 24px 0; width: 120px; background: #fff; border: 1px solid #ccc; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(3) > article > h1 { margin: 44px 30px 14px; width: 84%; padding: 6px 0; background: #E6F1F1; border-radius: 10px 10px 0 0; }
+.main > section:nth-child(3) > article > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 84%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(3) > article > ul > li { color: #333; }
+.main > section:nth-child(4) > h1 { padding: 34px 0 14px; }
+.main > section:nth-child(4) > ul { list-style: none; color: #aaa; width: 84%; padding: 0; margin: 0; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(4) > ul > li { color: #333; }
+.main > section:nth-child(4) > ul > li > a { display: inline-block; background: #f5f5f5; border-radius: 4px; padding: 6px 12px; margin: 10px 0 0; width: 100%; }
+.main > section:nth-child(4) > ul > li > a > i { display: inline; float: right; }
+.main > section:nth-child(4) > ul > li > ul { list-style: none; padding: 16px 18px; border-radius: 0; }
+.main > section:nth-child(5) > h1, .main > section:nth-child(6) > h1 { padding: 34px 0 14px; }
+.main > section:nth-child(5) > ul, .main > section:nth-child(6) > ul { padding-left: 1.3em; text-indent: -1.3em; list-style: inside; margin: 0; color: #aaa; width: 74%; padding: 0; margin: 0; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(5) > ul > li, .main > section:nth-child(6) > ul > li { color: #333; }
+.main > section:nth-child(5) > div, .main > section:nth-child(6) > div { position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); width: 84%; height: 200px; background: #eee; margin: 16px 0 0; }
+
+/*# sourceMappingURL=about.css.map */
