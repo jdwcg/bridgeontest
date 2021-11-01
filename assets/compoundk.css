@@ -7,24 +7,24 @@
 .main { padding-top: 148px; }
 .main ul { list-style: inside; margin: 0; }
 .main li { font-size: 14px; }
-.main h1 { text-align: center; color: #452C8B; font-size: 18px; }
+.main h2 { text-align: center; color: #452C8B; font-size: 18px; }
 .main p, .main p > span { font-size: 14px; }
 .main > section:nth-child(1) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #E7E7F4)); background: linear-gradient(to bottom, #fff 50%, #E7E7F4 50%); }
 .main > section:nth-child(1) > img { width: 180px; height: 180px; border-radius: 50%; }
 .main > section:nth-child(2) { background: #E7E7F4; }
-.main > section:nth-child(2) > article:nth-child(1) { width: 100%; }
-.main > section:nth-child(2) > article:nth-child(1) > h1 { padding: 34px 0 14px; }
-.main > section:nth-child(2) > article:nth-child(1) > p { word-break: keep-all; width: 100%; }
-.main > section:nth-child(2) > article:nth-child(1) > p > span { word-break: break-all; line-height: 1.6; width: 70%; display: block; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); text-align: justify; }
-.main > section:nth-child(2) > article:nth-child(1) > button { cursor: pointer; border-radius: 4px; padding: 8px 16px; margin: 24px 0; width: 120px; background: #fff; border: 1px solid #ccc; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
-.main > section:nth-child(2) > article:nth-child(2) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
-.main > section:nth-child(2) > article:nth-child(2) > h1 { padding: 34px 0 14px; }
-.main > section:nth-child(2) > article:nth-child(2) > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 70%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
-.main > section:nth-child(2) > article:nth-child(2) > ul > li { color: #333; }
-.main > section:nth-child(2) > article:nth-child(2) > button { cursor: pointer; border-radius: 4px; padding: 8px 16px; margin: 24px 0; width: 120px; background: #fff; border: 1px solid #ccc; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
-.main > section:nth-child(3) > article > h1, .main > section:nth-child(4) > article > h1 { margin: 44px 30px 14px; width: 84%; padding: 6px 0; background: #E7E7F4; border-radius: 10px 10px 0 0; }
-.main > section:nth-child(3) > article > ul, .main > section:nth-child(4) > article > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 84%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
-.main > section:nth-child(3) > article > ul > li, .main > section:nth-child(4) > article > ul > li { color: #333; }
-.main > section:nth-child(4) > article > ul > li:last-child { padding-bottom: 2rem; }
+.main > section:nth-child(2) > div:nth-child(1) { width: 100%; }
+.main > section:nth-child(2) > div:nth-child(1) > h2 { padding: 34px 0 14px; }
+.main > section:nth-child(2) > div:nth-child(1) > p { word-break: keep-all; width: 100%; }
+.main > section:nth-child(2) > div:nth-child(1) > p > span { word-break: break-all; line-height: 1.6; width: 70%; display: block; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); text-align: justify; }
+.main > section:nth-child(2) > div:nth-child(1) > button { cursor: pointer; border-radius: 4px; padding: 8px 16px; margin: 24px 0; width: 120px; background: #fff; border: 1px solid #ccc; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(2) > div:nth-child(2) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.main > section:nth-child(2) > div:nth-child(2) > h2 { padding: 34px 0 14px; }
+.main > section:nth-child(2) > div:nth-child(2) > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 70%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(2) > div:nth-child(2) > ul > li { color: #333; }
+.main > section:nth-child(2) > div:nth-child(2) > button { cursor: pointer; border-radius: 4px; padding: 8px 16px; margin: 24px 0; width: 120px; background: #fff; border: 1px solid #ccc; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(3) > div > h2, .main > section:nth-child(4) > div > h2 { margin: 44px 30px 14px; width: 84%; padding: 6px 0; background: #E7E7F4; border-radius: 10px 10px 0 0; }
+.main > section:nth-child(3) > div > ul, .main > section:nth-child(4) > div > ul { color: #aaa; padding-left: 1.3em; text-indent: -1.3em; width: 84%; position: relative; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+.main > section:nth-child(3) > div > ul > li, .main > section:nth-child(4) > div > ul > li { color: #333; }
+.main > section:nth-child(4) > div > ul > li:last-child { padding-bottom: 2rem; }
 
 /*# sourceMappingURL=compoundk.css.map */
