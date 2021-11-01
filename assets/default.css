@@ -21,7 +21,7 @@ a:visited { color: #333; }
 
 body { background: #f8f8f8; }
 
-header, .main, footer { margin: 0 auto; max-width: 480px; background: #fff; }
+header, .main, footer { margin: 0 auto; max-width: 480px; background: #fff; border: 1px solid red; }
 
 header { position: fixed; top: 0; z-index: 4; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-bottom: 1px solid #eee; width: 480px; background: #fff; height: 50px; }
 @media (max-width: 480px) { header { width: 100%; } }
@@ -35,8 +35,8 @@ footer > p:nth-child(1) { background: #3f3f3f; padding: .5rem 0; }
 footer > p:nth-child(1) > span { font-size: 13px; color: #888; }
 footer > p:nth-child(1) > span > span { color: #555; margin: 0 1rem; }
 
-footer > div:nth-child(2) { background: #333; padding: 1rem 0; }
-footer > div:nth-child(2) > p { font-size: 13px; color: #888; }
+footer > address { background: #333; padding: 1rem 0; }
+footer > address > p { font-size: 13px; color: #888; font-style: normal; }
 
 .popup { position: fixed; z-index: 10; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 1px solid #eee; width: 400px; margin: 0 auto; height: 87%; background: #fff; border-radius: 8px; }
 @media (max-width: 480px) { .popup { width: 85%; } }
