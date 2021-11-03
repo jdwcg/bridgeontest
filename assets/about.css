@@ -9,7 +9,6 @@
 .main li { font-size: 14px; }
 .main h2 { text-align: center; color: #176565; font-size: 18px; }
 .main p, .main p > span { font-size: 14px; }
-.main > section { margin-bottom: 20px; }
 .main > section:nth-child(1) { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #E6F1F1)); background: linear-gradient(to bottom, #fff 50%, #E6F1F1 50%); }
 .main > section:nth-child(1) > img { width: 180px; height: 180px; border-radius: 50%; }
 .main > section:nth-child(2) { background: #E6F1F1; }
