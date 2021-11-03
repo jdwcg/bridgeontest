@@ -13,7 +13,7 @@
         }
     }
     > section:nth-child(1) {
-        border:1px solid #ddd;
+        // border:1px solid #ddd;
         padding: 1rem 0;
       }
 
@@ -24,6 +24,10 @@
            div {
             padding:1rem;
             border-radius: 20px;
+            height: 48.75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
           }
             p {
               padding: 4px;
@@ -32,8 +36,8 @@
             }
             .btn {
               width:44%;
-              margin-top: 20px;
-              background: #fff;
+              // margin-top: 20px;
+              // background: #fff;
               border-radius: 10px;
               border: 1px solid #ccc;
               margin-left:28%;
@@ -43,13 +47,34 @@
               }
             }
           }
-          .subFirst { background-color: #E6F1F1; margin-bottom: 10px;}
+          .subFirst {
+            background-color: #E6F1F1;
+            // margin-bottom: 10px;
+          }
           .subSecond { background-color: #E4E4F8;}
 
+          .mainLeft {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
           .mainRight {
+            height: 100%;
             border-radius: 20px;
             padding:1rem;
             background: pink;
+            figure {
+              background: #fff;
+              height: 250px;
+              border-radius: 10px;
+              img {
+                height: 100%;
+              }
+            }
+            hr {
+              border: none;
+              background: #fff; height: 1px;
+            }
             p:nth-of-type(1) { font-size: 14px; }
             p:nth-of-type(2) { font-size: 14px; text-align: right;}
             p:nth-of-type(3) { font-size: 16px; text-align: right; color: #f00;}
@@ -69,12 +94,12 @@
         // 리뷰칸
         .review {
           width: 100%;
-          padding: 10px 0;
+          padding: 3rem 0 2rem;
 
           section {
             width: 100%;
             margin: 0 auto;
-            border-radius: 20px;
+            border-radius: 16px;
 
             div {
               width: 100%;
@@ -84,7 +109,9 @@
                   text-align: left;
                 }
             }
-            div:not(:last-child) { margin-bottom: 10px;}
+            div:not(:last-child) {
+              margin-bottom: 10px;
+            }
           }
           section:nth-child(1) {
             div {
@@ -97,7 +124,7 @@
               }
               p:last-child {
                 float: right;
-                background: #123750;
+                background: #ccc;
                 border-radius: 5px;
                 a {
                   color: #fff;
@@ -109,9 +136,12 @@
             }
           }
           section:nth-child(2) {
-            background: #123750;
+            background: #ccc;
             padding:20px 16px;
             margin-top: 10px;
+            > div {
+            padding: 6px 14px;
+            }
           }
       }
 }

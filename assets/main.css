@@ -4,30 +4,35 @@
 .main { padding: 50px 16px 0; }
 .main > section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .main > section > img { width: 100%; }
-.main > section:nth-child(1) { border: 1px solid #ddd; padding: 1rem 0; }
+.main > section:nth-child(1) { padding: 1rem 0; }
 .main section:nth-child(2) > div { width: 49%; }
-.main section:nth-child(2) > div div { padding: 1rem; border-radius: 20px; }
+.main section:nth-child(2) > div div { padding: 1rem; border-radius: 20px; height: 48.75%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 .main section:nth-child(2) > div p { padding: 4px; word-break: keep-all; text-align: center; }
-.main section:nth-child(2) > div .btn { width: 44%; margin-top: 20px; background: #fff; border-radius: 10px; border: 1px solid #ccc; margin-left: 28%; }
+.main section:nth-child(2) > div .btn { width: 44%; border-radius: 10px; border: 1px solid #ccc; margin-left: 28%; }
 .main section:nth-child(2) > div .btn a { display: block; font-size: .3rem; }
-.main section:nth-child(2) .subFirst { background-color: #E6F1F1; margin-bottom: 10px; }
+.main section:nth-child(2) .subFirst { background-color: #E6F1F1; }
 .main section:nth-child(2) .subSecond { background-color: #E4E4F8; }
-.main section:nth-child(2) .mainRight { border-radius: 20px; padding: 1rem; background: pink; }
+.main section:nth-child(2) .mainLeft { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.main section:nth-child(2) .mainRight { height: 100%; border-radius: 20px; padding: 1rem; background: pink; }
+.main section:nth-child(2) .mainRight figure { background: #fff; height: 250px; border-radius: 10px; }
+.main section:nth-child(2) .mainRight figure img { height: 100%; }
+.main section:nth-child(2) .mainRight hr { border: none; background: #fff; height: 1px; }
 .main section:nth-child(2) .mainRight p:nth-of-type(1) { font-size: 14px; }
 .main section:nth-child(2) .mainRight p:nth-of-type(2) { font-size: 14px; text-align: right; }
 .main section:nth-child(2) .mainRight p:nth-of-type(3) { font-size: 16px; text-align: right; color: #f00; }
 .main section:nth-child(2) .mainRight p:nth-of-type(4) { text-align: right; }
 .main section:nth-child(2) .mainRight p:nth-of-type(4) button { font-size: 10px; padding: 5px 10px; background: #da3a36; border: 0; border-radius: 5px; color: #fff; }
-.main .review { width: 100%; padding: 10px 0; }
-.main .review section { width: 100%; margin: 0 auto; border-radius: 20px; }
+.main .review { width: 100%; padding: 3rem 0 2rem; }
+.main .review section { width: 100%; margin: 0 auto; border-radius: 16px; }
 .main .review section div { width: 100%; background: #fff; border-radius: 10px; }
 .main .review section div p { text-align: left; }
 .main .review section div:not(:last-child) { margin-bottom: 10px; }
 .main .review section:nth-child(1) div { overflow: hidden; border-radius: 0; }
 .main .review section:nth-child(1) div p:first-child { float: left; font-weight: bold; font-size: 18px; }
-.main .review section:nth-child(1) div p:last-child { float: right; background: #123750; border-radius: 5px; }
+.main .review section:nth-child(1) div p:last-child { float: right; background: #ccc; border-radius: 5px; }
 .main .review section:nth-child(1) div p:last-child a { color: #fff; display: block; font-size: 12px; padding: 5px 10px; }
-.main .review section:nth-child(2) { background: #123750; padding: 20px 16px; margin-top: 10px; }
+.main .review section:nth-child(2) { background: #ccc; padding: 20px 16px; margin-top: 10px; }
+.main .review section:nth-child(2) > div { padding: 6px 14px; }
 
 section:nth-child(2) > div > .mainFirst { margin-right: 4px; }
 
