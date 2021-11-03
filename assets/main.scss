@@ -74,7 +74,6 @@
           section {
             width: 100%;
             margin: 0 auto;
-            padding:4% 3%;
             border-radius: 20px;
 
             div {
@@ -109,8 +108,12 @@
               }
             }
           }
-          section:nth-child(2) { background: #123750; }
-        }
+          section:nth-child(2) {
+            background: #123750;
+            padding:20px 16px;
+            margin-top: 10px;
+          }
+      }
 }
 // 큰 버튼 두개
 section:nth-child(2) > div > .mainFirst {margin-right: 4px;}
